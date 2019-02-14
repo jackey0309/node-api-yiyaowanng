@@ -1,0 +1,8 @@
+{
+  	"presets": ["stage-3"],//预设
+  	"plugins": [ //插件
+  		"transform-async-to-generator",
+        "transform-es2015-modules-commonjs",
+        "transform-export-extensions"
+    ]
+}
