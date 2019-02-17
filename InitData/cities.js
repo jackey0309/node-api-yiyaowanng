@@ -212,7 +212,6 @@ Z: [
 id: 2,
 name: "浙江",
 abbr: "ZJ",
-area_code: "0571",
 pinyin: "zhejiang"
 },
 ],
@@ -239,7 +238,6 @@ pinyin: "guangdong"
 id: 2,
 name: "浙江",
 abbr: "ZJ",
-area_code: "0571",
 pinyin: "zhejiang"
 },
 {

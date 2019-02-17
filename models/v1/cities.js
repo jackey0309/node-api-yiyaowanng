@@ -7,9 +7,9 @@ const citySchema = new mongoose.Schema({
 	data: {}
 });
 
-citySchema.statics.cityGuess = function(name){
-	return new Promise(async (resolve, reject) => {
-		const firtWord = name.substr(0,1).toUpperCase();
+citySchema.statics.cityGuess = function(name){  //，Promise是一个函数，这个函数上有在项目中常用的静态方法：all, race, reject,resolve等
+	return new Promise(async (resolve, reject) => {   //promise主要是为了解决js中多个异步回调难以维护和控制的问题.
+		const firtWord = name.substr(0,1).toUpperCase();  //，其实resolve是将Promise的状态置为fullfiled，reject是将Promise的状态置为rejected，
 		try{
 			const city = await this.findOne();
 			Object.entries(city.data).forEach(item => {
