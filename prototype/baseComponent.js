@@ -5,8 +5,8 @@ import path from 'path'
 import fs from 'fs'
 import qiniu from 'qiniu'
 import gm from 'gm'
-qiniu.conf.ACCESS_KEY = 'Ep714TDrVhrhZzV2VJJxDYgGHBAX-KmU1xV1SQdS';
-qiniu.conf.SECRET_KEY = 'XNIW2dNffPBdaAhvm9dadBlJ-H6yyCTIJLxNM_N6';
+qiniu.conf.ACCESS_KEY = 'OizfHN0MD_qy34PykU_vn8robYnj9wgeKGVHlIpe';
+qiniu.conf.SECRET_KEY = '5xIts4Q2Suy9b9hFcpP1620LX5OvMQ-SCYg8GU3B';
 
 
 export default class BaseComponent {
