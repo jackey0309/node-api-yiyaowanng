@@ -1,8 +1,8 @@
-import fetch from 'node-fetch';
+import fetch from 'node-fetch'; //XMLHttpRequest 是一个设计粗糙的 API，不符合关注分离（Separation of Concerns）的原则，配置和调用方式非常混乱，而且基于事件的异步模型写起来也没有现代的 Promise，generator/yield，async/await 友好。Fetch 的出现就是为了解决 XHR 的问题
 import Ids from '../models/ids'
-import formidable from 'formidable'
+import formidable from 'formidable'  //formidable处理提交的表单或图片文件
 import path from 'path'
-import fs from 'fs'
+import fs from 'fs' //fs模块用于对系统文件及目录进行读写操作。
 import qiniu from 'qiniu'
 import gm from 'gm'
 qiniu.conf.ACCESS_KEY = 'OizfHN0MD_qy34PykU_vn8robYnj9wgeKGVHlIpe';

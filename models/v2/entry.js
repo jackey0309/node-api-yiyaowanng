@@ -45,26 +45,26 @@ const entrySchema = new Schema({
 			triggerType: Number
 			},
 			],
-			banner: [
-			{
-			adType: Number,
-			areaId: Number,
-			buttonId: String,
-			content: String,
-			endTime: Number,
-			id: Number,
-			interval:Number,
-			linkTitle: String,
-			ongoingPicture:String,
-			pic: String,
-			platId: Number,
-			spaceCode: String,
-			startTime:Number,
-			title: String,
-			triggerType: Number,
-			xpic: String
-			},
-			]
+		banner: [
+		{
+		adType: Number,
+		areaId: Number,
+		buttonId: String,
+		content: String,
+		endTime: Number,
+		id: Number,
+		interval:Number,
+		linkTitle: String,
+		ongoingPicture:String,
+		pic: String,
+		platId: Number,
+		spaceCode: String,
+		startTime:Number,
+		title: String,
+		triggerType: Number,
+		xpic: String
+		},
+		]
 		},
 		rtn_code: String,
 		rtn_ext: String,
@@ -77,9 +77,7 @@ const Entry = mongoose.model('Entry', entrySchema)
 
 Entry.findOne((err, data) => {
 	if (!data) {
-		for (let i = 0; i < entryData.length; i++) {
-			Entry.create(entryData[i]);
-		}
+		Entry.create(entryData);
 	}
 })
 

@@ -1,5 +1,5 @@
-export default [
-    {
+export default 
+{
 data: {
 templatedata: [
 {
@@ -7,7 +7,7 @@ adate: "2017-07-05 15:34:18",
 bgimage: "",
 contentList: [
 {
-adPic: "https://p3.maiyaole.com/img/mobile/201810/1541953163405143.png",
+adPic: "1541953163405143.png",
 adTitle: "中西药品",
 cmsUrl: "https://m.111.com.cn/maps/index.html?pageId=1595&type=release",
 contentPosition: 1,
@@ -19,7 +19,7 @@ templateId: 4,
 triggerType: null
 },
 {
-adPic: "https://p1.maiyaole.com/img/mobile/201810/1541953174961144.png",
+adPic: "1541953174961144.png",
 adTitle: "男性",
 cmsUrl: "https://m.111.com.cn/maps/index.html?pageId=709&type=release",
 contentPosition: 2,
@@ -31,7 +31,7 @@ templateId: 4,
 triggerType: null
 },
 {
-adPic: "https://p2.maiyaole.com/img/mobile/201810/1541953179796145.png",
+adPic: "1541953179796145.png",
 adTitle: "女性",
 cmsUrl: "https://m.111.com.cn/maps/index.html?pageId=1228&type=release",
 contentPosition: 3,
@@ -43,7 +43,7 @@ templateId: 4,
 triggerType: null
 },
 {
-adPic: "https://p1.maiyaole.com/img/mobile/201810/1541953183649146.png",
+adPic: "1541953183649146.png",
 adTitle: "慢病",
 cmsUrl: "http://m.111.com.cn/cmsPage/20172d421d8e0103140334/index.html",
 contentPosition: 4,
@@ -55,7 +55,7 @@ templateId: 4,
 triggerType: null
 },
 {
-adPic: "https://p3.maiyaole.com/img/mobile/201810/1541953187754147.png",
+adPic: "1541953187754147.png",
 adTitle: "问医生",
 cmsUrl: "http://yzm.111.com.cn/m/yw-twwz/index.html?channel=yiyaoapp",
 contentPosition: 5,
@@ -67,7 +67,7 @@ templateId: 4,
 triggerType: null
 },
 {
-adPic: "https://p1.maiyaole.com/img/mobile/201810/1541953191564148.png",
+adPic: "1541953191564148.png",
 adTitle: "维生素钙",
 cmsUrl: "https://m.111.com.cn/maps/index.html?pageId=257&type=release",
 contentPosition: 6,
@@ -79,7 +79,7 @@ templateId: 4,
 triggerType: null
 },
 {
-adPic: "https://p1.maiyaole.com/img/mobile/201810/1541953194955149.png",
+adPic: "1541953194955149.png",
 adTitle: "营养保健",
 cmsUrl: "https://m.111.com.cn/maps/index.html?pageId=72&type=release",
 contentPosition: 7,
@@ -91,7 +91,7 @@ templateId: 4,
 triggerType: null
 },
 {
-adPic: "https://p3.maiyaole.com/img/mobile/201810/1541953199018150.png",
+adPic: "1541953199018150.png",
 adTitle: "医疗器械",
 cmsUrl: "https://m.111.com.cn/maps/index.html?pageId=1167&type=release",
 contentPosition: 8,
@@ -103,7 +103,7 @@ templateId: 4,
 triggerType: null
 },
 {
-adPic: "https://p2.maiyaole.com/img/mobile/201810/1541953204870151.png",
+adPic: "1541953204870151.png",
 adTitle: "隐形眼镜",
 cmsUrl: "https://m.111.com.cn/maps/index.html?pageId=799&type=release",
 contentPosition: 9,
@@ -115,7 +115,7 @@ templateId: 4,
 triggerType: null
 },
 {
-adPic: "https://p2.maiyaole.com/img/mobile/201810/1541953213628152.png",
+adPic:"1541953213628152.png",
 adTitle: "健康讲堂",
 cmsUrl: "https://yzm.111.com.cn/m/yz-video/index.html?a=qwe82",
 contentPosition: 10,
@@ -289,5 +289,5 @@ rtn_ext: "",
 rtn_ftype: "0",
 rtn_msg: "",
 rtn_tip: ""
-    }    
-]
+}
+
