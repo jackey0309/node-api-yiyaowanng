@@ -64,7 +64,13 @@ const entrySchema = new Schema({
 		triggerType: Number,
 		xpic: String
 		},
-		]
+		],
+		activity_model: [
+		{	
+		bgcPic: String,
+		url: String
+		}
+		],
 		},
 		rtn_code: String,
 		rtn_ext: String,

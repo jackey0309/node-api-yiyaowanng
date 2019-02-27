@@ -2,10 +2,11 @@
 
 import express from 'express';
 import Entry from '../controller/v2/entry'
+import Tail from '../controller/v2/getTail'
 import CityHandle from '../controller/v1/cities'
 // import User from '../controller/v2/user'
 const router = express.Router();
-
+router.get('/index_tail', Tail.getTail);
 router.get('/index_entry', Entry.getEntry);
 router.get('/pois/:geohash', CityHandle.pois);
 // router.post('/login', User.login);
